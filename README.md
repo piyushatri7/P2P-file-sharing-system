@@ -1,21 +1,31 @@
 # P2P_file_sharing_system
 - This is a group based file sharing system where users can share, download files from the group they belong to
 TRACKER COMMANDS
+
 g++ server.cpp -o tracker -lpthread
+
 ./tracker tracker_info.txt 1
 
 
 
 CLIENT1 COMMANDS 
+
 g++ client.cpp -o client -lpthread -lcrypto
+
 ./client 127.1.1.1:5757 tracker_info.txt
 
 create_user beerus abc
+
 login beerus abc
+
 create_group group1
+
 join_group group1
+
 list_requests group1
-accept_request group1 piyush		
+
+accept_request group1 piyush	
+
 list_groups
 upload_file GATE.mp4 group1
 upload_file lena.jpg group1
