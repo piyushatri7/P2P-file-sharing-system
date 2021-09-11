@@ -22,7 +22,7 @@ P2P is a file sharing technology, allowing the users to access mainly the multim
 ### TRACKER COMMANDS
 
 
-- ``` g++ server.cpp -o tracker -lpthread``` 
+- ```c++ g++ server.cpp -o tracker -lpthread``` 
 - Run Tracker: ``` ./tracker tracker_info.txt 1``` 
 
 
