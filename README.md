@@ -21,11 +21,14 @@ P2P is a file sharing technology, allowing the users to access mainly the multim
 
 ### TRACKER COMMANDS
 
+```
 - g++ server.cpp -o tracker -lpthread
 - Run Tracker: ./tracker tracker_info.txt 1
+```
 
 ### CLIENT COMMANDS 
 
+```
 - g++ client.cpp -o client -lpthread -lcrypto
 - Run Client: ./client 127.1.1.1:5757 tracker_info.txt
 - Create User Account: create_user user_name password
@@ -44,3 +47,4 @@ P2P is a file sharing technology, allowing the users to access mainly the multim
 - list_files group1
 - Show ongoing downloads: show_downloads
 - Stop sharing file: stop_share group1 document.pdf
+```
