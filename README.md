@@ -22,28 +22,28 @@ P2P is a file sharing technology, allowing the users to access mainly the multim
 ### TRACKER COMMANDS
 
 
-- ``` g++ server.cpp -o tracker -lpthread
+- ``` g++ server.cpp -o tracker -lpthread``` 
 - Run Tracker: ``` ./tracker tracker_info.txt 1``` 
 
 
 ### CLIENT COMMANDS 
 
-- ``` g++ client.cpp -o client -lpthread -lcrypto
-- Run Client: ``` ./client 127.1.1.1:5757 tracker_info.txt
-- Create User Account: ``` create_user user_name password
-- Login: ``` login user_name password
-- Create Group: ``` create_group group1
-- Join Group: ``` join_group group1
-- List pending join: ``` list_requests group1
-- Accept Group Joining Request: ``` accept_request group1 user_name	
-- List All Group In Network: ``` list_groups
+- ``` g++ client.cpp -o client -lpthread -lcrypto``` 
+- Run Client: ``` ./client 127.1.1.1:5757 tracker_info.txt``` 
+- Create User Account: ``` create_user user_name password``` 
+- Login: ``` login user_name password``` 
+- Create Group: ``` create_group group1``` 
+- Join Group: ``` join_group group1``` 
+- List pending join: ``` list_requests group1``` 
+- Accept Group Joining Request: ``` accept_request group1 user_name	``` 
+- List All Group In Network: ``` list_groups``` 
 - Upload Files:
-  - ``` upload_file video.mp4 group1
-  - ``` upload_file image.jpg group1
-  - ``` upload_file document.pdf group1	
-  - ``` upload_file song.mp4 group1
-  - ``` upload_file audio.mp3 group1
-- ``` list_files group1
-- Show ongoing downloads: ``` show_downloads
-- Stop sharing file: ``` stop_share group1 document.pdf
+  - ``` upload_file video.mp4 group1``` 
+  - ``` upload_file image.jpg group1``` 
+  - ``` upload_file document.pdf group1	``` 
+  - ``` upload_file song.mp4 group1``` 
+  - ``` upload_file audio.mp3 group1``` 
+- ``` list_files group1``` 
+- Show ongoing downloads: ``` show_downloads``` 
+- Stop sharing file: ``` stop_share group1 document.pdf``` 
 
