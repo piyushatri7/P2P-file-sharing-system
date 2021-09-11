@@ -1,8 +1,6 @@
 # Peer-to-Peer file sharing system
-- This is a group based file sharing system where users can share, download files from the group they belong to
 
-### Introduction
-P2P is a file sharing technology, allowing the users to access mainly the multimedia files like videos, music, e-books, games etc. The individual users in this network are referred to as peers. The peers request for the files from other peers by establishing TCP or UDP connections. 
+P2P is a file sharing technology, allowing the users to access mainly the multimedia files like videos, music, e-books, games etc. The individual users in this network are referred to as peers. The peers request for the files from other peers by establishing TCP or UDP connections. This is a group based file sharing system where users can share, download files from the group they belong to
 
 ### Architecture
 - Tracker: The tracker is a special server that keeps track of the connected peers. Maintains information of clients with their files(shared by client) to assist the clients for the communication between peers.
