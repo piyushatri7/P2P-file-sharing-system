@@ -5,7 +5,7 @@ P2P is a file sharing technology, allowing the users to access mainly the multim
 ### Architecture
 - Tracker: The tracker is a special server that keeps track of the connected peers. Maintains information of clients with their files(shared by client) to assist the clients for the communication between peers.
 - Peers/Client: Users downloading from a BitTorrent swarm are commonly referred to as “leechers” or “peers. 
-- For downloading, one peer – who has a complete copy of all the files in the torrent – joins the netword so other users can download the data.
+- For downloading, one peer – who has a complete copy of all the files in the torrent – joins the network so other users can download the data.
 - All data transfers are encryped and verified using SHA.
 
 ### Working
